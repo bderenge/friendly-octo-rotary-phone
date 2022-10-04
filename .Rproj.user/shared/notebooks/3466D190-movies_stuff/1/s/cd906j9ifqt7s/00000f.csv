@@ -1,0 +1,33 @@
+"0","pacman::p_load(readr, ggplot, dplyr,tidyr)
+"
+"2","Installing package into ‘C:/Users/bdere/AppData/Local/R/win-library/4.2’
+(as ‘lib’ is unspecified)
+"
+"2","Warning: package ‘ggplot’ is not available for this version of R
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.2/PACKAGES.rds': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.2/PACKAGES.gz': HTTP status was '404 Not Found'"
+"2","Warning: downloaded length 0 != reported length 281"
+"2","Warning: cannot open URL 'https://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.2/PACKAGES': HTTP status was '404 Not Found'"
+"2","Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.2:
+  cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.2/PACKAGES'"
+"2","Warning: "
+"2","Warning: there is no package called ‘ggplot’"
+"2","Warning: Failed to install/load:
+ggplot"
+"0","library(readr)"
+"0","movies <- read_csv(""ml-latest-small/movies.csv"")"
+"2","[1mRows: [22m[34m9742[39m [1mColumns: [22m[34m3[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (2): title, genres
+[32mdbl[39m (1): movieId"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","View(movies)"

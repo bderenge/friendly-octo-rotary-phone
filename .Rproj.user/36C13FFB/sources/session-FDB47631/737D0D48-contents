@@ -1,0 +1,32 @@
+---
+title: "Moives"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# packages
+```{r}
+pacman::p_load(readr, ggplot2, dplyr,tidyr)
+```
+
+```{r}
+
+links <- readr::read_csv("ml-latest-small/links.csv")
+movies <- read_csv("ml-latest-small/movies.csv")
+ratings <- read_csv("ml-latest-small/ratings.csv")
+tags <- read_csv("ml-latest-small/tags.csv")
+
+
+
+```
+
+
+
+```{r}
+hist(ratings$rating)
+```
+
